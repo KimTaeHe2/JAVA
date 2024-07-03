@@ -20,6 +20,7 @@ public class BirdExam {
 		animal.eat();
 		animal.breath();
 		animal.dispose();
+		
 
 	}
 
