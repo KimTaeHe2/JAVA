@@ -25,7 +25,7 @@ public class TryCatchFinallyExam {
 			System.out.println(data1 + " + " + data2 + " = " + result);
 		} catch (NumberFormatException e) {
 			System.out.println("숫자만 입력하세요");
-			// e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 

@@ -16,7 +16,7 @@ public class ThrowsExam {
 	}
 	
 	public static void findClass() throws Exception { //클래스를 찾아주는 메서드
-		Class clazz = Class.forName("java.lang.String2") ;
+		Class clazz = Class.forName("java.lang.String") ;
 		System.out.println(clazz + " 가 존재합니다.");
 		
 	}

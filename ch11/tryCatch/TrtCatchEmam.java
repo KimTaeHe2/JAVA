@@ -20,7 +20,7 @@ public class TrtCatchEmam {
 			// 예외가 발생할 수 있는 확율이 있는 코드
 		} catch (ClassNotFoundException e) {
 			System.out.println("클래스가 존재하지 않습니다.");
-			e.printStackTrace(); // 예외 로그 출력
+			// e.printStackTrace(); // 예외 로그 출력
 		}finally {
 			System.out.println("프로그램이 종료 됩니다."); // 항상 실행되는녀석
 		}
